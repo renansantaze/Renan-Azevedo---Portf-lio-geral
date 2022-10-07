@@ -1,0 +1,973 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+header{
+    height: 70vh;
+    width: 100%;
+    background-image: url(../assets/background.jpg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size:cover;
+    margin-top: 0%;
+}
+
+nav{
+    margin-left: 05rem;
+}
+
+ul{
+   max-width: 29rem;
+   padding: 3.5rem;
+}
+
+ul img{
+    max-width: 15rem;
+    margin-bottom: 3.2rem;
+}
+
+li{
+    list-style: none;
+    font-family: 'Quattrocento';
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2rem;
+    color: #FFFFFF;
+    margin-bottom: 3.2rem;
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+section{
+    height: fit-content;
+    padding-block: 3rem;
+    background-image: url(../assets/backgroundsection.jpg);
+    margin-bottom: 0.2rem;
+}
+
+
+.sobre__conteiner{
+    max-width: 35rem;
+    height: fit-content;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 2rem;
+    margin: auto;
+}
+
+.sobre__conteiner div img{
+    max-width: 15rem;
+}
+
+
+h2{
+    font-family: 'Quattrocento';
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 2.7rem;
+    margin-bottom: 2rem;
+    color: #9EAEE5;
+}
+
+
+
+p{
+    font-family: 'Quattrocento';
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: justify;
+    color: #9EAEE5;
+    margin-bottom: 4rem;
+}
+
+.sobre span{
+    font-family: 'Quattrocento';
+    font-weight: 700;
+    font-size: 2rem;
+    color: #7C7AF0;
+    margin-left: 5rem;
+}
+
+.sobre span::after{
+    content: "";
+    width: 3rem;
+    height: 2rem;
+    background-image: url(../assets/seta_baixo.svg);
+    background-repeat: no-repeat;
+    display: block;
+    transform: translateX(14rem) translateY(-2rem);
+}
+
+article{
+    max-width: 30rem;
+    margin-bottom: 2rem;
+    padding-block: auto;
+    margin: auto;    
+    text-align: center;
+}
+
+figure{
+    max-width: 30rem;
+    margin: auto;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.site01{
+    width: 30rem;
+    height: 15rem;
+    background-image: url(../assets/site_01.jpg);
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.web__design div{
+    margin-bottom: 1.5rem;
+}
+
+.web__design .ladoalado{
+    display: flex;
+    justify-content:center;
+    background-repeat: no-repeat;
+    max-width: 30rem;
+    height: 15rem;
+    margin: auto;
+}
+
+.site02{
+    
+    background-image: url(../assets/site_02.png);
+    width: 15rem;
+    height: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.site03{
+    background-image: url(../assets/site_03.jpg);
+    width: 10rem;
+    height: auto;
+    margin-right: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.fotografia figure{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.fotografia .fotorafa{
+    background-image: url(../assets/fotorafa.jpg);
+    width: 7.2rem;
+    height: 9rem;
+    margin-right: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.fotografia .fotopremier{
+    background-image: url(../assets/fotopremier.png);
+    width: 7.2rem;
+    height: 9rem;
+    margin-right: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.fotografia .fotogabi{
+    background-image: url(../assets/fotogabi.jpg);
+    width: 7.2rem;
+    height: 9rem;
+    margin-right: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.fotografia .fotoemerson{
+    background-image: url(../assets/fotoemerson.jpg);
+    width: 7.2rem;
+    height: 9rem;
+    margin-right: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.fotografia .fotomaria{
+    background-image: url(../assets/fotomaria.jpg);
+    width: 7.2rem;
+    height: 9rem;
+    margin-right: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.fotografia .fotodrica{
+    background-image: url(../assets/fotodrica.jpg);
+    width: 20rem;
+    height: 9rem;
+    margin-right: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.fotografia .fotoisa{
+    background-image: url(../assets/fotoisa.jpg);
+    width: 7.2rem;
+    height: 10rem;
+    margin-right: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.design__grafico figure{
+    display: flex;
+    justify-content: center;
+    align-content: center;    
+    gap: 1rem;
+}
+
+.design__grafico .hallel{
+    background-image: url(../assets/hallel.jpg);
+    width: 9rem;
+    height: 9rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.design__grafico .camiseta__publicano{
+    background-image: url(../assets/publicano.jpg);
+    width: 9rem;
+    height: 9rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.design__grafico .camiseta_forro{
+    background-image: url(../assets/tommyforro.png);
+    width: 9rem;
+    height: 9rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.design__grafico .agenda__aberta{
+    background-image: url(../assets/agendavozeterna.jpg);
+    width: 9rem;
+    height: 9rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.design__grafico .robinhof4{
+    background-image: url(../assets/robinhof4.jpg);
+    width: 9rem;
+    height: 9rem;
+    margin-right: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.design__grafico .b4l__minhahistoria{
+    background-image: url(../assets/b4l_mhistoria.jpg);
+    width: 9rem;
+    height: 9rem;
+    margin-right: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.design__grafico .b4l__marca{
+    background-image: url(../assets/b4l_marca.jpg);
+    width: 9rem;
+    height: 9rem;
+    margin-right: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.design__grafico .debs__aoseulado{
+    background-image: url(../assets/Debs_aoseulado.jpg);
+    width: 9rem;
+    height: 9rem;
+    margin-right: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.design__grafico .patria20anos{
+    background-image: url(../assets/patria20anos.jpg);
+    width: 9rem;
+    height: 9rem;
+    margin-right: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+a{
+    text-decoration: none;
+    margin: auto;
+}
+
+.musica .links{
+    max-width: 30rem;
+    margin: auto;
+    text-align: center;
+}
+
+.musica .video{
+    background-image: url(../assets/framevideo.jpg);
+    width: 16rem;
+    height: 9rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    justify-content: center;
+    margin-bottom: 2rem;
+    background-position: center;
+}
+
+.musica .projetos {
+    display: flex;
+    justify-content: space-between;
+    align-content:flex-end;
+}
+
+.musica .projetos .vozeterna{
+    background-image: url(../assets/vozeterna_logo.svg);
+    width: 6rem;
+    height: 5rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    align-self: center;
+}
+
+.musica .projetos .rpv{
+    background-image: url(../assets/rpv_logo.svg);
+    width: 11rem;
+    height: 4.5rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-self: center;
+    background-position: center;
+}
+.musica .projetos .ntc{
+    background-image: url(../assets/ntc_logo.svg);
+    width: 11rem;
+    height: 3.1rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    align-self: center;
+    background-position: center;
+}
+
+.musica{
+    margin-bottom: 0;
+}
+
+footer{
+    background-color: black;
+    padding-block: 3rem;
+    border-top: solid gray;
+
+}
+
+footer .footer__conteiner .contato{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 4rem;
+    padding-left: 4rem;
+}
+
+.telefonemail{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+footer span{
+    font-family: 'Quattrocento';
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 2rem;
+    color: #5D6D7B;
+}
+
+footer .whatsapp{
+    background-image: url(../assets/whatsapp.svg);
+    width: 2rem;
+    height: 2rem;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+footer .mail{
+    background-image: url(../assets/gmail.svg);
+    width: 3rem;
+    height: 2rem;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+footer .behance{
+    background-image: url(../assets/behance.png);
+    background-blend-mode: darken;
+    width: 3rem;
+    height: 2rem;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media(min-width:600px)
+{
+    header{
+            height: 80vh;
+        }
+
+    li{
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+
+    section{
+        height: fit-content;
+        padding-block: 5rem;
+    }
+    
+    article{
+        max-width: 40rem;
+    }
+
+    figure{
+        max-width: 40rem;
+        text-align: center;
+    }
+
+    .sobre__conteiner{
+        max-width: 40rem;
+    }
+
+    .ladoalado{
+        max-width: 40rem;
+        height: 20rem;
+        padding-bottom: 2rem;
+        margin-bottom: 2rem;
+    }
+    .site01{
+        width: 40rem;
+        height: 20rem;
+        margin: auto;
+    }
+    .site02{
+        width: 20rem;
+        height: 20rem
+    } 
+    .site03{
+        width: 14rem;
+        height: 20rem;
+    }
+
+    .fotorafa , .fotoemerson , .fotopremier , .fotogabi , .fotomaria{
+        width: 9rem;
+        height: 12rem;
+    }
+
+    .fotografia .fotodrica{
+        height: 15rem;
+        width: 25rem;
+    }
+
+    .fotografia .fotoisa{
+        width: 11rem;
+        height: 13rem;
+    }
+
+    .design__grafico .hallel, .design__grafico .camiseta__publicano, .design__grafico .camiseta_forro, .design__grafico .agenda__aberta{
+        width: 12rem;
+        height: 15rem;
+    }
+
+    .design__grafico .robinhof4, .design__grafico .b4l__marca, .design__grafico  .b4l__minhahistoria, .design__grafico  .debs__aoseulado, .design__grafico  .patria20anos{
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .musica .projetos{
+        gap: 2rem;
+    }
+
+    .musica .projetos .vozeterna{
+        width: 8rem;
+        height: 7rem;
+    }
+    
+    .musica .projetos .rpv{
+        width: 13rem;
+        height: 6.5rem;
+    }
+    .musica .projetos .ntc{
+        width: 13rem;
+        height: 5.1rem;
+        
+    }
+}
+
+  @media(min-width:800px)
+{
+    header{
+            height: 80vh;
+        }
+
+    section{
+        height: fit-content;
+        padding-block: 6rem;
+        background-size: cover;
+    }
+    
+    article{
+        max-width: 50rem;
+    }
+
+    figure{
+        max-width: 60rem;
+        height: fit-content;
+        text-align: center;
+        margin: auto;
+    }
+
+    .sobre__conteiner{
+        max-width: 50rem;
+    }
+
+    .sobre__conteiner article{
+        align-self: center;
+    }
+
+    .ladoalado{
+        max-width: 50rem;
+        height: 30rem;
+        padding-bottom: 2rem;
+        margin-bottom: 2rem;
+        gap: 2rem;
+    }
+
+    .web__design figure{
+        
+        margin-bottom: 5rem;
+    }
+
+    .web__design .site01 {
+        width: 50rem;
+        height: 20rem;
+        background-size: contain;
+        
+    }
+    .site02{
+        width: 30rem;
+        height: 21rem
+    } 
+    .site03{
+        width: 24rem;
+        height: 21rem;
+    }
+
+    .fotografia .fileiraum{
+        margin-top: 3rem;
+    }
+
+    .fotografia .fotorafa , .fotografia .fotoemerson , .fotografia .fotopremier ,.fotografia .fotogabi ,.fotografia .fotomaria{
+        width: 19rem;
+        height: 22rem;
+    }
+
+    .fotografia .fotodrica{
+        height: 25rem;
+        width: 35rem;
+    }
+
+    .fotografia .fotoisa{
+        width: 21rem;
+        height: 23rem;
+    }
+
+    .design__grafico .hallel, .design__grafico .camiseta__publicano, .design__grafico .camiseta_forro, .design__grafico .agenda__aberta{
+        width: 15rem;
+        height: 18rem;
+    }
+
+    .design__grafico .designfileiraum{
+        margin-bottom: 3rem;
+    }
+
+    .design__grafico .robinhof4, .design__grafico .b4l__marca, .design__grafico  .b4l__minhahistoria, .design__grafico  .debs__aoseulado, .design__grafico  .patria20anos{
+        width: 15rem;
+        height: 15rem;
+    }
+
+    .musica .projetos{
+        gap: 2rem;
+    }
+
+    .musica .links{
+        max-width: 50rem;
+    }
+
+    .musica .video{
+        width: 20rem;
+        height: 13rem;
+        margin-bottom: 4rem;
+    }
+
+    .musica .projetos .vozeterna{
+        width: 10rem;
+        height: 9rem;
+    }
+    
+    .musica .projetos .rpv{
+        width: 15rem;
+        height: 8.5rem;
+    }
+    .musica .projetos .ntc{
+        width: 15rem;
+        height: 7.1rem;
+        
+    }
+}
+
+@media(min-width:900px)
+{
+    header{
+            height: 90vh;
+        }
+
+    ul{
+        padding-top: 10rem;
+    }
+
+    section{
+        height: fit-content;
+        padding-block: 6rem;
+        background-size: cover;
+    }
+    
+    article{
+        max-width: 65rem;
+    }
+
+    figure{
+        max-width: 70rem;
+        height: fit-content;
+        text-align: center;
+        margin: auto;
+    }
+
+    .sobre__conteiner{
+        max-width: 65rem;
+        height: 40rem;
+        margin-bottom: 5rem;
+        gap: 6rem;
+    }
+
+    .sobre__conteiner article{
+        align-self: center;
+    }
+
+    h2{
+        font-size: 3.4rem;
+    }
+
+    p{
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+
+    .sobre__conteiner div img{
+        max-width: 20rem;
+    }
+
+  
+    .web__design .ladoalado{
+        max-width: 50rem;
+        height: 30rem;
+        align-items: center;
+        margin-top: 3rem;
+    }
+
+    .web__design figure{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 5rem;
+        gap: 2rem;
+    }
+
+    .web__design .site01 {
+        width: 50rem;
+        height: 30rem;
+        background-size: contain;
+        
+    }
+    .site02{
+        width: 15rem;
+        height: 21rem;
+    } 
+    .site03{
+        width: 15rem;
+        height: 21rem;
+    }
+
+    .fotografia .fileiraum{
+        margin-top: 3rem;
+    }
+
+    .fotografia .fotorafa , .fotografia .fotoemerson , .fotografia .fotopremier ,.fotografia .fotogabi ,.fotografia .fotomaria{
+        width: 20rem;
+        height: 23rem;
+    }
+
+    .fotografia .fotodrica{
+        height: 26rem;
+        width: 36rem;
+    }
+
+    .fotografia .fotoisa{
+        width: 22rem;
+        height: 24rem;
+    }
+
+    .design__grafico .hallel, .design__grafico .camiseta__publicano, .design__grafico .camiseta_forro, .design__grafico .agenda__aberta{
+        width: 16rem;
+        height: 19rem;
+    }
+
+    .design__grafico .designfileiraum{
+        margin-bottom: 3rem;
+    }
+
+    .design__grafico .robinhof4, .design__grafico .b4l__marca, .design__grafico  .b4l__minhahistoria, .design__grafico  .debs__aoseulado, .design__grafico  .patria20anos{
+        width: 16rem;
+        height: 16rem;
+    }
+
+    .musica .projetos{
+        gap: 2rem;
+    }
+
+    .musica .links{
+        max-width: 60rem;
+    }
+
+    .musica .video{
+        width: 25rem;
+        height: 18rem;
+        margin-bottom: 4rem;
+    }
+
+    .musica .projetos .vozeterna{
+        width: 12rem;
+        height: 11rem;
+    }
+    
+    .musica .projetos .rpv{
+        width: 17rem;
+        height: 10.5rem;
+    }
+    .musica .projetos .ntc{
+        width: 17rem;
+        height: 9.1rem;
+        
+    }
+
+    footer{
+        padding-block: 6rem;
+    }
+
+    footer span{
+        font-size: 1.5rem;
+    }
+}
+
+@media(min-width:1000px)
+{
+    header{
+            height: 90vh;
+        }
+
+    ul{
+        padding-top: 10rem;
+    }
+
+    section{
+        height: fit-content;
+        padding-block: 6rem;
+        background-size: cover;
+    }
+    
+    article{
+        max-width: 75rem;
+    }
+
+    figure{
+        max-width: 90rem;
+        height: fit-content;
+        text-align: center;
+        margin: auto;
+    }
+
+    .sobre__conteiner{
+        max-width: 90rem;
+        height: 50rem;
+        margin-bottom: 5rem;
+        gap: 6rem;
+    }
+
+    .sobre__conteiner article{
+        align-self: center;
+        gap: 5rem;
+    }
+
+    h2{
+        font-size: 4.4rem;
+        margin-bottom: 3rem;
+    }
+
+    p{
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+
+    .sobre__conteiner div img{
+        max-width: 25rem;
+    }
+
+  
+    .web__design .ladoalado{
+        max-width: 50rem;
+        height: 30rem;
+        align-items: center;
+        margin-top: 4rem;
+    }
+
+    .web__design figure{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 5rem;
+        gap: 2rem;
+    }
+
+    .web__design .site01 {
+        width: 60rem;
+        height: 35rem;
+        background-size: contain;
+        
+    }
+    .site02{
+        width: 20rem;
+        height: 31rem;
+    } 
+    .site03{
+        width: 20rem;
+        height: 31rem;
+    }
+
+    .fotografia .fotodrica{
+        height: 30rem;
+        width: 46rem;
+    }
+
+    .fotografia .fotoisa{
+        width: 30rem;
+        height: 30rem;
+    }
+
+    .design__grafico .hallel, .design__grafico .camiseta__publicano, .design__grafico .camiseta_forro, .design__grafico .agenda__aberta{
+        width: 25rem;
+        height: 28rem;
+    }
+    
+    .design__grafico figure{
+        margin-bottom: 6rem;
+    }
+
+
+    .design__grafico .robinhof4, .design__grafico .b4l__marca, .design__grafico  .b4l__minhahistoria, .design__grafico  .debs__aoseulado, .design__grafico  .patria20anos{
+        width: 19rem;
+        height: 19rem;
+    }
+
+    .musica .projetos{
+        gap: 2rem;
+    }
+
+    .musica .links{
+        max-width: 70rem;
+    }
+
+    .musica .video{
+        width: 30rem;
+        height: 23rem;
+        margin-bottom: 4rem;
+    }
+
+    .musica .projetos .vozeterna{
+        width: 12rem;
+        height: 11rem;
+    }
+    
+    .musica .projetos .rpv{
+        width: 17rem;
+        height: 10.5rem;
+    }
+    .musica .projetos .ntc{
+        width: 17rem;
+        height: 9.1rem;
+        
+    }
+
+    footer{
+        padding-block: 6rem;
+    }
+
+    footer span{
+        font-size: 1.5rem;
+    }
+}
